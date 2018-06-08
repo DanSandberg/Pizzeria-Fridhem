@@ -1,0 +1,593 @@
+/* onlinepizza röd: d60c1d
+vit text = gainsboro */
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #424242;
+  color: gainsboro;
+  /*background-image: url("http://brainlava.com/admin/assets/SP2013BGPattern.png");*/
+  background-image: url('../images/background1.jpeg');
+  background-repeat: repeat;
+  font-size: 1vw;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+/* header modul*/
+
+header {
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+}
+
+header > a {
+  text-decoration: none;
+}
+
+header > a h3, h1 {
+  text-align: center;
+  text-decoration: none;
+  font-family: "Times New Roman", "Times", "serif";
+  color: gainsboro;
+}
+
+header > a h3 {
+  letter-spacing: 1em;
+}
+
+header > a h1 {
+  letter-spacing: 0.1em;
+  font-size: 4em;
+}
+
+header > .h-img-wrap {
+  background-image: url("https://i.ytimg.com/vi/RoBHW_I70xM/maxresdefault.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 22em;
+  border-radius: 1em 1em 0 0;
+}
+
+header > .h-img-wrap a img {
+  border-radius: 0 1em 0 0;
+  float: right;
+  width: 20em;
+  height: auto;
+}
+/* navbar*/
+header > nav {
+  background-color: #d60c1d;
+  min-height: 3.5em;
+  border-radius: 0 0 1em 1em;
+}
+
+header > nav > ul {
+  text-align: center;
+  list-style: none;
+}
+
+header > nav li {
+  display: inline-block;
+}
+
+header > nav li div {
+  height: 3.6em;
+  display: block;
+}
+
+header > nav li div a {
+  padding: 0.6em;
+}
+
+header > nav li a {
+  font-size: 1.3em;
+  color: gainsboro;
+  text-shadow: 0.07em 0.12em darkred;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 5em;
+  line-height: 2.7em;
+}
+
+header > nav li div:hover {
+  background: darkred;
+  border-radius: 0.2em;
+}
+/* header end*/
+
+/* Teman */
+.hr-l {
+  margin-left: -2em;
+  margin-right: -2em;
+  border-color: ghostwhite;
+  margin-bottom: 1em;
+}
+
+.hr-s {
+  margin-left: -1em;
+  margin-right: -1em;
+  border-color: gray;
+}
+/* nyhetsflöde*/
+
+section.news-feed-wrap {
+  margin: auto;
+  width: 70em;
+  min-height: 20em;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+section.news-feed-wrap h3,
+p {
+  color: gainsboro;
+}
+
+/*Meny */
+.menu-container {
+  margin: auto;
+  width: 60%;
+}
+
+.menu-container h1 {
+  font-weight: bolder;
+}
+
+.menu-container p {
+  margin-bottom: 1em;
+  text-align: center;
+  font-style: italic;
+}
+
+.menu-box-container {
+  display: table-row;
+}
+
+section.text-left, section.img-right, section.text-right, section.img-left {
+  padding-top: 3.4em;
+  padding-bottom: 2em;
+  width: 20em;
+}
+
+section.text-left, section.img-left {
+  float: left;
+}
+
+section.text-right, section.img-right {
+  float: right;
+}
+
+section.img-left img, section.img-right img{
+  width: 20em;
+  height: auto;
+}
+
+section.text-left, section.text-right {
+  line-height: 1em;
+}
+
+section.text-left p{
+  padding-left: 4em;
+  text-align: left;
+}
+
+section.text-right p{
+  padding-right: 4em;
+  text-align: right;
+}
+
+section.img-right {
+  margin-left: 14em;
+  padding-right: 4em;
+}
+
+section.img-left {
+  margin-right: 14em;
+  padding-left: 4em;
+}
+
+div.menu-title-background {
+
+}
+
+div.menu-title-background h3 {
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* Meny titlar */
+.menu-container h3#t1:before {
+  content: 'Pizza 65:- Familjepizza 130:-';
+  text-align: right;
+}
+
+.menu-container h3#t2:before {
+  content: 'Pizza 65:-';
+}
+
+.menu-container h3#t3:before {
+  content: 'Pizza 65:-';
+}
+
+.menu-container h3#t4:before {
+  content: 'Pizza 70:- Familjepizza 135:-';
+}
+
+.menu-container h3#t5:before {
+  content: 'Pizza 70:-';
+}
+
+.menu-container h3#t6:before {
+  content: 'Pizza 75:- Familjepizza 150:-';
+}
+
+.menu-container h3#t7:before {
+  content: 'Pizza 75:-';
+}
+
+.menu-container h3#t8:before {
+  content: 'Pizza 80:- Familjepizza 160:-';
+}
+
+.menu-container h3#t9:before {
+  content: 'Pizza 80:-';
+}
+
+.menu-container h3#t10:before {
+  content: 'Pizza 80:-';
+}
+
+.menu-container h3#t11:before {
+  content: 'Kebab';
+}
+
+.menu-container h3#t12:before {
+  content: 'Sallad 70:-';
+}
+
+.menu-container h3#t13:before {
+  content: 'Sallad 70:-';
+}
+
+.menu-container h3#t14:before {
+  content: 'Grill';
+}
+
+.menu-container h3#t15:before {
+  content: 'Grill';
+}
+
+.menu-container article {
+  margin-bottom: 0.3em;
+  padding: 0;
+}
+
+.menu-box-container h3 {
+  margin-bottom: 1em;
+}
+
+p.menu-item-name, p.menu-item-ingredients {
+  /*font-family: "Comic Sans MS", cursive, sans-serif; */
+}
+
+p.menu-item-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.2em;
+}
+
+p.menu-item-ingredients {
+  text-transform: lowercase;
+  margin-bottom: 1.2em;
+}
+/* End meny */
+
+/* admin ui */
+div.admin-ui-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 10em;
+  height: 100%;
+  background-color: #d60c1d;
+}
+/* End admin ui */
+
+/* Admin modals */
+/* The Modal (background) */
+#admin-modal-container {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: gainsboro;
+  margin: 15% auto; /* 15% from the top and centered */
+  border: 0.1em solid #888;
+  padding: 1em;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+section.admin-edit-menu-order-container {
+  margin-bottom: 1em;
+}
+
+.admin-edit-menu-order-container p {
+  color: black;
+}
+
+/* END modals */
+
+/* Admin edit */
+.admin-edit-menu-form {
+
+}
+
+.admin-edit-menu-form input [type=text] {
+
+}
+
+.admin-edit-menu-form label {
+  font-size: 1.5em;
+}
+/* END Admin edit */
+
+.mainback {
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+}
+
+.pannel {
+  position: fixed;
+  width: 11em;
+  background-color: #595959;
+  height: 100%;
+  border-radius: 1em 1em 0 0;
+}
+
+.mainpage {
+  float: right;
+  width: 100%;
+}
+
+.mainback .pannel .menypannel ul {
+  width: 100%;
+  text-align: center;
+  margin-top: 5em;
+  padding-left: 0;
+  margin-left: -0.5em;
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.mainback .pannel .menypannel ul li {
+  margin: 0.5em 0;
+}
+
+.mainback .pannel .menypannel ul li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 0;
+  overflow: hidden;
+}
+
+.mainback .pannel .menypannel ul li a:hover {
+  background: #404040;
+  border-radius: 0.2em;
+}
+/*admin edit end*/
+/*adminloginpage*/
+
+.boxlog {
+  text-align: center;
+  border: 0.1em solid transparent;
+  border-radius: 0.1em;
+  font-size: 1.2em;
+  font-weight: 200;
+  padding: 0.5em 0;
+  width: 15em;
+  transition: border .5s;
+  margin: auto;
+  margin-top: 20%;
+  border-color: black;
+  margin-left:
+}
+
+.boxlog:focus {
+  border: 0.1em solid #3498DB;
+  box-shadow: none;
+}
+
+.btn {
+  text-align: center;
+  background-color: #ECF0F1;
+  border: 0.1em solid transparent;
+  border-radius: 0.1em;
+  font-size: 1.2em;
+  padding: 0.5em 0;
+  width: 12em;
+  transition: border 0.2s;
+  border-color: black;
+}
+
+.btn:hover {
+  border: 0.1em solid #3498DB;
+  box-shadow: none;
+}
+
+.holder {
+  text-align: center;
+}
+
+.loginheader {
+  text-align: center;
+}
+
+.loginheader > h1 {
+  color: white;
+  padding-top: 3%;
+}
+/* adminlogin end*/
+
+/* Map */
+#map {
+  width: 50em;
+  height: 25em;
+  margin: auto;
+  border-radius: 0.5em;
+  margin-top: 2em;
+}
+/* Map end */
+
+/* Om oss */
+section.about-info-container {
+  width: 50%;
+  margin: auto;
+}
+
+section.about-info-container article {
+  float: left;
+  width: 25em;
+}
+
+section.about-info-container img {
+  border-radius: 0.5em;
+  margin-top: 4.5em;
+  max-width: 23em;
+  float: right;
+}
+
+section.gmap-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 35em;
+}
+
+section.about-img-container {
+  float: right;
+  text-align: center;
+  margin-left: 1em;
+}
+
+section.about-img-container p {
+
+}
+/* End om oss */
+
+/*Footer */
+footer {
+  margin-top: 5em;
+  background-color: #d60c1d;
+  border-radius: 1em 1em 0 0;
+  padding-top: 1em;
+}
+
+footer > article p, h2 {
+  color: gainsboro;
+  text-align: center;
+}
+
+footer > article p h2 {
+  font-size: 2.2vh;
+  color: darkgrey;
+}
+
+footer > article.address {
+  width: 100vw;
+  height: 8vh;
+  color: gainsboro;
+}
+
+footer > article.copyright {
+  height: 4vh;
+  width: 100vw;
+  color: gainsboro;
+}
+/* Footer end*/
+
+/* LÅT DEN HÄR JÄVLA SKITEN LIGGA LÄNGST NER NU WTF */
+@media (max-width: 500px) {
+  body {
+    font-size: 2.5vw;
+  }
+
+  /* Nyhetsflöde */
+  section.news-feed-wrap {
+    width: 95%;
+  }
+  /* END Nyhetsflöde */
+
+  /* Meny */
+  div.menu-container {
+    width: 95%;
+    overflow-x: hidden;
+  }
+  .menu-container .img-left img, .menu-container .img-right img {
+    height: auto;
+    width: 12em;
+    padding: 0;
+  }
+  section.text-left p, section.text-right p {
+    padding: 0;
+    margin: 0;
+  }
+  section.img-right, section.img-left {
+    padding: 0;
+    padding-top: 3em;
+    padding-bottom: 2em;
+  }
+  section.img-right {
+    margin-left: 5em;
+  }
+  section.img-left {
+    margin: 0;
+  }
+  /*END Meny */
+
+  /* Om oss */
+  section.about-info-container {
+    overflow-x: hidden;
+    width: 95%;
+  }
+
+  section.about-info-container article {
+    text-align: center;
+    margin-left: 6em;
+  }
+
+  section.about-img-container {
+    float: left;
+    margin-left: 7.7em;
+  }
+
+  section.gmap-container {
+    width: 95%;
+    margin-top: 3em;
+  }
+
+  section.gmap-container h3 {
+    text-align: left;
+    margin-left: 7em;
+  }
+
+  #map {
+    width: 100%;
+    height: 10em;
+  }
+
+}
